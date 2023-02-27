@@ -10,7 +10,7 @@ import sys
 
 
 # set environment variable to tell django where your settings.py is
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecell.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecell_web.settings')
 
 
 # serve django via WSGI
