@@ -119,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = "\ecell_web\events\templates\friends\mystatic"
+STATIC_ROOT = "\ecell_web\events\static"
 
 
 # Default primary key field type
