@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
    os.path.join(BASE_DIR, 'checkstatic/static/')
 ]'''
 
-STATIC_ROOT = "\events\static"
+STATIC_ROOT = "/events/static"
 
 
 # Default primary key field type
