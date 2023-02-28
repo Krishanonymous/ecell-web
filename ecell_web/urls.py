@@ -23,6 +23,9 @@ urlpatterns = [
     path('members/',include('members.urls')),
    ]
 
+urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
 admin.site.site_header='Ecell Web Page'
 admin.site.site_title='Browser title'
 admin.site.index_title='Welcome to the Admin Area......'
