@@ -119,11 +119,11 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'events/static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-STATICFILES_DIRS = [
-    BASE_DIR / "events/static",
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / "events/static",
+# ]
 
 #STATIC_ROOT = "/events/static"
 
