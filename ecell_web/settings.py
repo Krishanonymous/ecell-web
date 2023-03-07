@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '.vercel.app',
-    'http://www.ecellnitandhra.com'
+    'www.ecellnitandhra.com'
 ]
 
 
